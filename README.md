@@ -66,6 +66,11 @@ Termux is detected conservatively and receives `kram-android-arm64.tar.gz`, inst
 
 Downloads the right binary for your OS/architecture, verifies its SHA-256 checksum against the release's own `SHA256SUMS`, and installs it. The Unix path does not use `sudo` or edit shell config; the Windows path updates only the current user's `PATH`.
 
-## Source
+## Source and issues
 
-This repository holds only the installer and release binaries. Kram's source is maintained separately.
+This repository is intentionally limited to installers and release binaries.
+
+Kram itself is open source under the MIT License:
+
+- Source: https://github.com/codexmark/kram
+- Issues: https://github.com/codexmark/kram/issues
